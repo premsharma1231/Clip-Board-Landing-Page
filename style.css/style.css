@@ -1,0 +1,299 @@
+/* CSS Reseting */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0.5;
+        transform: translateY(-150px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* Giving font to the body */
+h1,
+h3,
+h2 {
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* Before pseudo selector for container */
+#container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    background: url('../images/bg-header-desktop.png');
+    height: 363px;
+    width: 100%;
+}
+
+/* Making Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+/* Designing 1st Header Container */
+/* Giving display flex to container */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* Designing Logo of header container */
+.logo {
+    margin: 30px;
+}
+
+/* Designing the heading and paragraph of header's container */
+.head-1 h1 {
+    margin: 20px;
+    font-size: 2.9rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.head-1 p {
+    font-size: 1.1rem;
+    padding: 0px 350px;
+    color: hsl(201, 11%, 66%);
+    /* font-weight: 200px; */
+}
+
+/* .head-1 p{
+    margin-bottom: 20px;
+} */
+/* Designing the buttons for header container */
+.buttons {
+    margin: 40px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 15px 45px;
+    border-radius: 40px;
+    font-size: 1rem;
+    color: whitesmoke;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:first-child {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 1px 3px 0px hsl(171, 66%, 34%);
+}
+
+.btn:nth-child(2) {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 1px 3px 0px hsl(233, 62%, 53%);
+}
+
+.btn:first-child:hover {
+    background-color: hsl(171, 66%, 35%);
+}
+
+.btn:nth-child(2):hover {
+    background-color: hsl(233, 100%, 64%);
+}
+
+
+
+/* Designing The container - 2 */
+#container-2 {
+    margin-top: 100px;
+}
+
+/* Designing the heading and paragraph of container-2 */
+.head-2 h1 {
+    margin: 20px;
+    font-size: 2.3rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.head-2 p {
+    font-size: 1.1rem;
+    padding: 0px 330px;
+    color: hsl(201, 11%, 66%);
+}
+
+/* Designing the images and their subheading for container-2 */
+.img-sub-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 80px;
+    align-items: center;
+}
+
+.img-computer img {
+    display: inline;
+    position: relative;
+    left: -120px;
+}
+
+/* Now designing class section coomputer */
+#section-computer {
+    height: 640px;
+    margin-top: 100px;
+}
+
+.section-computer {
+    margin: 50px 20px;
+}
+
+.img-sub-para #section-computer p {
+    color: hsl(201, 11%, 66%);
+    padding-right: 40px;
+    line-height: 30px;
+}
+
+.img-sub-para #section-computer h2 {
+    color: hsl(210, 10%, 33%);
+    margin: 10px 0px;
+}
+
+/* Designing Container - 3 */
+#container-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-3 .head-3 h1 {
+    margin: 20px;
+    font-size: 2.4rem;
+    color: hsl(210, 10%, 33%);
+}
+
+#container-3 .head-3 p {
+    font-size: 1.1rem;
+    padding: 0px 330px;
+    color: hsl(201, 11%, 66%);
+}
+
+#container-3 .image-desktop {
+    margin: 100px;
+    margin-bottom: 50px;
+}
+
+/* Designing Container - 4 */
+#container-4 .head-4 h1 {
+    margin: 20px;
+    font-size: 2.1rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.sub-head-container-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    /* height: 400px; */
+}
+
+.img-h1-p-container-4:first-child {
+    margin-top: 20px;
+}
+
+#container-4 .img-h1-p-container-4 img {
+    margin: 15px;
+}
+
+#container-4 .img-h1-p-container-4 h2 {
+    margin: 20px;
+}
+
+#container-4 .img-h1-p-container-4 p {
+    padding: 0px 20px;
+    line-height: 30px;
+}
+
+/* Designing the container - 5 */
+#container-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+    margin-top: 120px;
+}
+
+#container-5 .logos-container-5 {
+    margin: 30px 50px;
+}
+
+
+/* Designing Container - 6  */
+#container-6 {
+    margin-top: 120px;
+}
+
+#container-6 .head-6 h1 {
+    margin: 20px;
+    font-size: 2.1rem;
+    color: hsl(210, 10%, 33%);
+}
+
+#container-6 .head-6 p {
+    font-size: 1.1rem;
+    padding: 0px 330px;
+    color: hsl(201, 11%, 66%);
+}
+
+
+/* Designing the footer */
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    background-color: #f0f0f0;
+    padding: 30px 0px;
+}
+
+.logo-footer img {
+    width: 50px;
+    margin-left: 180px;
+}
+
+footer .six-names-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    position: relative;
+    left: 100px;
+}
+
+footer .six-names-footer .names-starts {
+    line-height: 40px;
+    color: hsl(210, 10%, 33%);
+}
+
+footer .social-media-head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 460px;
+}
+
+footer .social-media-head .sub-social-media {
+    margin: 0px 10px;
+}
