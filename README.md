@@ -2,9 +2,14 @@
 
 This is a fully responsive landing page for Clipboard, a modern tool for managing and organizing your clipboard history. The design is clean, simple, and works seamlessly across different devices, including desktops, tablets, and smartphones.
 
-![Clipboard Landing Page Screenshot](https://raw.githubusercontent.com/premsharma1231/Clip-Board-Landing-Page/refs/heads/main/Screenshot%20(141).png) <!-- Replace this with an actual screenshot link if available -->
-**[Live DEMO](https://premsharma1231.github.io/Clip-Board-Landing-Page/)**
+![PC Interface](https://raw.githubusercontent.com/premsharma1231/Clip-Board-Landing-Page/refs/heads/main/Screenshot%20(141).png) <!-- Replace this with an actual screenshot link if available -->
+![Phone Interface]([[https://raw.githubusercontent.com/premsharma1231/Clip-Board-Landing-Page/refs/heads/main/Screenshot%20(141).png](https://raw.githubusercontent.com/premsharma1231/Clip-Board-Landing-Page/refs/heads/main/WhatsApp%20Image%202024-09-25%20at%2019.22.02_8b2a39cd.jpg)](https://raw.githubusercontent.com/premsharma1231/Clip-Board-Landing-Page/refs/heads/main/WhatsApp%20Image%202024-09-25%20at%2019.22.02_8b2a39cd.jpg))
 
+
+
+--
+## **[Live DEMO](https://premsharma1231.github.io/Clip-Board-Landing-Page/)**
+--
 
 ## 🌟 Features
 
