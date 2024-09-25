@@ -2,7 +2,7 @@
 .img-computer img {
     display: block;
     left: 0px;
-    width: 300px;
+    width: 270px;
 }
 
 .img-sub-para {
@@ -23,7 +23,7 @@
 .head-1 h1 {
     margin: 20px auto;
     font-size: 2rem;
-    width: 330px;
+    width: 280px;
 }
 
 .head-1 p {
@@ -36,7 +36,9 @@
 }
 
 .btn {
-    width: 300px;
+    width: 280px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .head-2 h1 {
@@ -51,7 +53,7 @@
 #container-3 .head-3 h1 {
     margin: 20px auto;
     font-size: 1.8rem;
-    width: 300px;
+    width: 270px;
 }
 
 #container-3 .head-3 p {
@@ -64,7 +66,7 @@
 }
 
 #container-3 .image-desktop img {
-    width: 350px;
+    width: 270px;
 }
 
 #container-4 .head-4 h1 {
@@ -143,4 +145,11 @@ footer .social-media-head {
 
 footer .social-media-head .sub-social-media img {
     margin: 0px 10px;
+}
+
+.btn:first-child{
+    width: 270px;
+}
+.btn:nth-child(2){
+    width: 270px;
 }

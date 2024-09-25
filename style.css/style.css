@@ -15,6 +15,29 @@
     }
 }
 
+/* Scroll Watcher Animation Line */
+.scrollWatcher{
+    height: 1px;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: cadetblue;
+    box-shadow: cadetblue 0px 1px 20px 10px;
+    scale: 0 1;
+    transform-origin: left;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+    to{
+        scale: 1 1;
+    }
+}
+
+
 /* Giving font to the body */
 h1,
 h3,
